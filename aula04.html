@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app ng-init="valor1 = 50; valor2 = 10; pessoa = { nome: 'João Pedro'}">
+<head>
+    <meta charset="UTF-8">
+    <title>Curso AngularJS</title>
+    <script src="js/angular/angular.min.js"></script>
+</head>
+<body>
+
+    Qual e seu nome? <input type="text" ng-model="pessoa.nome" > <BR>
+
+    <input type="number" ng-model="valor1" />
+
+   |<input type="number" ng-model="valor2" />
+
+   <h1>Resultado: <texto  ng-bind="valor1/valor2"></texto></h1>
+
+   <h1 ng-bind="pessoa.nome"> </h1>
+
+    
+
+
+
+</body>
+</html>
