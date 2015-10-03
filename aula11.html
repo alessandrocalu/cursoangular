@@ -1,0 +1,37 @@
+<html ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title>Curso AngularJS</title>
+
+    <base href="/cursoangular/cursoangular/" />
+</head>
+<body>
+
+<div ng-controller="Aula11Controller">
+    <ul>
+        <li>
+            <a href="/cursoangular/cursoangular/" >Inicial</a>
+            <a href="/cursoangular/cursoangular/Pagina1">Pagina 1</a>
+            <a href="/cursoangular/cursoangular/Pagina2/1">Pagina 2</a>
+        </li>
+    </ul>
+
+    <p>Cabeçalho  da Página</p>
+
+    <div ng-view>
+
+    </div>
+
+    <p>Rodapé da página</p>
+
+</div>
+
+
+
+<script src="js/angular/angular.min.js"></script>
+<script src="js/angular/angular-route.min.js"></script>
+
+<!--Contrellers-->
+<script src="js/aula11Controller.js"></script>
+</body>
+</html>
